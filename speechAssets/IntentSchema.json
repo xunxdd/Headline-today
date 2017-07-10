@@ -1,0 +1,177 @@
+{
+  "intents": [
+    {
+      "intent": "TestIntent"
+    },
+    {
+      "intent":"AMAZON.PauseIntent"
+    },
+    {
+      "intent":"AMAZON.ResumeIntent"
+    }
+  ],
+  "slots":[
+    {"Source": ["Al Jazeera English",
+      "Ars Technica",
+      "Associated Press",
+      "BBC News",
+      "BBC Sport",
+      "Bloomberg",
+      "Breitbart News",
+      "Business Insider",
+      "Buzzfeed",
+      "CNBC",
+      "CNN",
+      "Daily Mail",
+      "Engadget",
+      "Entertainment Weekly",
+      "ESPN",
+      "ESPN Cric Info",
+      "Financial Times",
+      "Football Italia",
+      "Fortune",
+      "FourFourTwo",
+      "Fox Sports",
+      "Google News",
+      "Hacker News",
+      "IGN",
+      "Independent",
+      "Mashable",
+      "Metro",
+      "Mirror",
+      "MTV News",
+      "National Geographic",
+      "New Scientist",
+      "Newsweek",
+      "New York Magazine",
+      "NFL News",
+      "Polygon",
+      "Recode",
+      "Reddit /r/all",
+      "Reuters",
+      "TalkSport",
+      "TechCrunch",
+      "TechRadar",
+      "The Economist",
+      "The Guardian",
+      "The Hindu",
+      "The Huffington Post",
+      "The Lad Bible",
+      "The New York Times",
+      "The Next Web",
+      "The Sport Bible",
+      "The Telegraph",
+      "The Times of India",
+      "The Verge",
+      "The Wall Street Journal",
+      "The Washington Post",
+      "Time",
+      "USA Today"
+    ]},
+    {
+      "Section": [
+        "general",
+        "technology",
+        "sport",
+        "business",
+        "politics",
+        "entertainment",
+        "gaming",
+        "music",
+        "science-and-nature"
+      ]
+    }
+  ]
+}
+
+/*
+Al Jazeera English
+Ars Technica
+Associated Press
+BBC News
+BBC Sport
+Bloomberg
+Breitbart News
+Business Insider
+Buzzfeed
+CNBC
+CNN
+Daily Mail
+Engadget
+Entertainment Weekly
+ESPN
+Financial Times
+Football Italia
+Fortune
+FourFourTwo
+Fox Sports
+Google News
+Hacker News
+IGN
+Mashable
+Metro
+Mirror
+MTV News
+National Geographic
+New Scientist
+Newsweek
+New York Magazine
+NFL News
+Polygon
+Recode
+Reddit
+Reuters
+TalkSport
+TechCrunch
+TechRadar
+The Economist
+The Guardian
+The Hindu
+The Huffington Post
+The Lad Bible
+The New York Times
+The Next Web
+The Sport Bible
+The Telegraph
+The Times of India
+The Verge
+The Wall Street Journal
+The Washington Post
+Economist
+Guardian
+Hindu
+Huffington Post
+Lad Bible
+New York Times
+Next Web
+Sport Bible
+Telegraph
+Times of India
+Verge
+Wall Street Journal
+Washington Post
+Time
+USA Today
+*/
+/*
+Examples:
+
+ Example 1:
+ User: Alexa ask headlines today
+ Alexa: Please tell me the name of the source you would like to hear the news headlines from. You can say CNN, Google News or ESPN.
+ User: Hacker news
+ Alexa: <News Headlines from Hacker news>
+ ...
+
+
+ Example 2:
+ User: Alexa ask headlines today from Business Insider
+ Alexa: <News Headlines from Business Insider>
+
+ Example 3:
+ User: Source List
+ Alexa: Al Jazeera English, Ars Technica, Associated Press
+ ...
+
+
+ */

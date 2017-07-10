@@ -1,0 +1,22 @@
+{
+  "name": "news-reader",
+  "version": "1.0.0",
+  "description": "Alexa skill that read for you headlines from 70 + news sources and blogs",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha"
+  },
+  "author": "Xun Ding",
+  "license": "ISC",
+  "alexa": {
+    "applicationId": "amzn1.ask.skill.3a46eeac-742c-42a9-b76b-ad7d7fa2dec4"
+  },
+  "dependencies": {
+    "alexa-app": "^2.1.0",
+    "chai": "^4.0.2",
+    "lodash": "^4.16.1",
+    "mocha": "^3.4.2",
+    "request": "^2.81.0",
+    "request-promise": "^4.2.1"
+  }
+}
